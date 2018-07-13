@@ -1,0 +1,12 @@
+{
+  "name": "chgk-discord-bot",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "4.16.3",
+    "ffmpeg": "0.0.4",
+    "gm": "1.23.1",
+    "opusscript": "0.0.6"
+  }
+}
