@@ -10,3 +10,77 @@
     vertical-align: middle;
     margin: 0 6px;
 }
+
+.sounds {
+    text-align: right;
+}
+
+.sounds, .sounds-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 77px;
+    padding: 10px;
+}
+
+.score {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.score-number {
+    display: inline-block;
+    padding: 7px 17px;
+    font-size: 103px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.score-number.experts {
+    background: #86b9fe;
+    color: #3041ab;
+}
+
+.score-number.viewers {
+    background: #3041ab;
+    color: #86b9fe;
+}
+
+.score-button.button {
+    display: inline-block;
+    color: #3041ab;
+    padding: 8px 27px;
+}
+
+.timer {
+    padding: 9px 135px;
+    font-size: 44px;
+    background: #e2eeff;
+    color: #3041ab;
+    position: relative;
+}
+
+body {
+    background: #ededed;
+}
+
+#root {
+    width: 389px;
+    box-shadow: 0px 0px 8px -2px black;
+    padding: 13px 14px;
+    margin: 19px auto auto;
+    background: white;
+}
+
+.params span {
+    width: 102px;
+    display: inline-block;
+}
+
+.status {
+    float: right;
+}
+
+.timer-reset {
+    position: absolute;
+    right: 0;
+}
